@@ -5,7 +5,7 @@ package com.kevin.projetjavatest;
  *
  */
 public class App {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		App tester = new App();
 
 		// with type declaration
@@ -15,9 +15,7 @@ public class App {
 		MathOperation subtraction = (a, b) -> a - b;
 
 		// with return statement along with curly braces
-		MathOperation multiplication = (int a, int b) -> {
-			return a * b;
-		};
+		MathOperation multiplication = (int a, int b) -> a * b;
 
 		// without return statement and without curly braces
 		MathOperation division = (int a, int b) -> a / b;
